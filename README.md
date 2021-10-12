@@ -7,4 +7,4 @@ This project investigated different Deep Learning architectures, loss functions,
 **Results:**  
 Three different quantitative measurements were used: Mean Squared Error (MSE), Peak signal-to-noise ratio (PSNR), and Structure Similarity Index (SSIM). The training epochs that this score was achieved at is also denoted at the right.
 The results showed better performance in the SSIM measure for both GAN architectures when compared to the CNN architecture. This is because of the stronger learning GANs can have, utilizing the second network to help the generator learn. Both GANs also have a more complex loss function when compared to the CNN, helping them to learn more features of the input image. Shown below is an example from the best performing network, Pix2pix:
-![image](https://user-images.githubusercontent.com/71538648/137009600-d7ed6b77-db5f-40e1-8574-08487fae0a36.png)
+![image](https://user-images.githubusercontent.com/71538648/137009652-599ba111-efb5-43c8-9994-de335b961f7f.png)

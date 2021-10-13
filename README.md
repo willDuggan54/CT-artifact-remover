@@ -9,3 +9,4 @@ Three different quantitative measurements were used: Mean Squared Error (MSE), P
 The results showed better performance in the SSIM measure for both GAN architectures when compared to the CNN architecture. This is because of the stronger learning GANs can have, utilizing the second network to help the generator learn. Both GANs also have a more complex loss function when compared to the CNN, helping them to learn more features of the input image. Shown below is an example from the best performing network, Pix2pix using the ErrorCalculator.ipynb file:
 ![image](https://user-images.githubusercontent.com/71538648/137009652-599ba111-efb5-43c8-9994-de335b961f7f.png)  
 **More Info about the Files (in case you want to run them):**  
+All the models have their own main/runner functions already in their respective programs. This was done because each model has different batch sizes, methods, and, cross-validation steps.
